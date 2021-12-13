@@ -1,0 +1,374 @@
+#header {
+    height: 666px;
+    /* background: url(../images/hero-background.jpg) no-repeat ; */
+    background-size: cover;
+}
+
+#box {
+    padding: 20px 100px 0 200px;
+    height: 100px;
+    width: 100%;
+    display: none;
+}
+
+#nav {
+    /* position: fixed; */
+    z-index: 3;
+    padding: 30px 100px 0 200px;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(67, 160, 71, 0.8);
+}
+
+#nav #logo {
+    float: left;
+    width: 86px;
+    height: 35px;
+
+}
+
+#nav #list {
+    float: right;
+    width: 900px;
+    height: 50px;
+}
+
+#nav #list-top {
+    padding-right: 110px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
+
+    background-color: rgba(61, 133, 65, 0.6);
+}
+
+#nav #list-top li,
+#nav #list li {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 15px;
+    float: right;
+
+}
+
+#nav #list-top li {
+    height: 20px;
+    width: 100px;
+    text-align: right;
+    line-height: 20px;
+}
+
+#nav #list-top li a:hover {
+    color: rgb(90, 83, 83);
+}
+
+#nav #list-top li a {
+    color: #eee;
+    font-size: 14px;
+}
+
+#nav #list li a {
+    color: black;
+    font-size: 22px;
+}
+
+#nav #list li :hover,
+#center-text .btn:hover,
+#lunbo-list ul li:hover,
+#foot #footer-four .foot-list4 a:hover,
+#foot #footer-two ul li:hover,
+#backTop:hover,
+#banner .btn-pay:hover {
+    /* text-decoration: underline; */
+    background-color: rgb(150, 235, 171);
+    box-shadow: 0 0 5px rgb(59, 199, 94),
+        0 0 25px rgb(24, 172, 61);
+    transition: all 0.4s;
+}
+
+#content1 {
+    padding: 10px 100px 10px 100px;
+    margin-top: 5px;
+    width: 100%;
+    height: 528px;
+    background-color: rgb(236, 236, 236);
+    float: left;
+}
+
+#lunbo-list {
+    width: 280px;
+    height: 100%;
+    float: left;
+}
+
+#lunbo-list ul li {
+    cursor: pointer;
+    width: 100%;
+    height: 102px;
+    border: 1px solid rgb(153, 153, 155);
+    font-size: 20px;
+    text-align: center;
+    line-height: 102px;
+}
+
+#content3,
+#content2 {
+    padding: 1px 100px 10px 100px;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+#content2 .title{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+
+}
+
+#content2 .left-box {
+    height: 80%;
+    width: 60%;
+    overflow: auto;
+    float: left;
+    /* background-color: red; */
+}
+
+#content2 .left-box ul li {
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+    border: 5px solid lightgreen;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+
+}
+
+
+#content2 .left-box ul li .position-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#content2 .right-box {
+    padding-left: 15px;
+    height: 80%;
+    width: 38%;
+    float: right;
+    background-color: rgb(234, 236, 234);
+}
+
+#content2 .right-box .underline {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 5px;
+    float: left;
+}
+
+#content2 .right-box li {
+    width: 90%;
+    height: 30px;
+    margin: 10px 0px;
+    padding: 1px;
+    background-color: rgb(150, 235, 171);
+}
+
+#content2 .right-box li span {
+    display: inline-block;
+    margin: 5px 5px 0 5px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#content2 .right-box li a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#content2 .right-box li a:hover {
+    color: rgb(54, 144, 207);
+}
+
+#content3 {
+    background-color: #fff;
+}
+#content2 .title,
+#content3 .title{
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+#content2 .title h1,
+#content3 .title h1{
+    margin-top: 10px;
+    font-size: 30px;
+    float: left;
+}
+#content2 .title a,
+#content3 .title a{
+    font-size: 20px;
+    margin: 15px 20px 0 0 ;
+    float: right;
+}
+#content3 ul li {
+    width: 19%;
+    height: 390px;
+    margin: 20px 37px;
+    border-radius: 10px;
+    background-color: rgb(241,241,241);
+    position: relative;
+    float: left;
+}
+
+#content3 ul li .bg-img {
+    width: 100%;
+    height: 50%;
+}
+
+#content3 ul li p {
+    margin-top: 20px;
+    font-size: 22px;
+    width: 100%;
+    height: 120px;
+}
+
+#content3 ul li .author {
+    width: 100%;
+    height: 60px;
+    padding: 1px;
+}
+
+
+#content3 ul li .author a{
+    margin:0 10px 10px 0;
+    float: right;
+}
+#content2 .right-box h4,
+#content3 ul li .author h3{
+    display: inline-block;
+    margin: 0 0 10px 0;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+#content3 ul li .avatar {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    overflow: hidden;
+    float: left;
+}
+
+#content3 ul li .avatar img {
+    width: 50px;
+    height: 50px;
+}
+
+#content3 ul li h4 {
+    display: inline-block;
+}
+
+
+
+#foot {
+    padding: 0 170px;
+    width: 100%;
+    height: 400px;
+    background: url(../images/op-footer-background.jpg) no-repeat;
+    background-size: cover;
+}
+
+#foot #footer-one,
+#footer-two,
+#footer-three,
+#footer-four {
+    padding-top: 50px;
+    width: 285px;
+    height: 400px;
+    float: left;
+}
+
+#foot #footer-one p,
+#footer-two p,
+#footer-three p,
+#footer-four p {
+    text-align: left;
+    font-size: 23px;
+    color: white;
+}
+
+#foot #footer-one ul,
+#foot #footer-two ul,
+#foot #footer-three ul,
+#foot #footer-four .foot-list4 {
+    height: 320px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+#foot #footer-one ul li,
+#foot #footer-two ul li a,
+#foot #footer-three ul li {
+    width: 100%;
+    height: 50px;
+    text-align: left;
+
+}
+
+#foot #footer-two {
+    padding-left: 30px;
+}
+
+#foot #footer-two ul li {
+    width: 150px;
+}
+
+#foot #footer-three ul li {
+    margin-bottom: 60px;
+}
+
+#foot #footer-three ul li img {
+    margin-right: 5px;
+    float: left;
+}
+
+#foot #footer-three ul li span {
+    float: left;
+}
+
+#foot #footer-three span a {
+    display: inline-block;
+    width: 150px;
+    color: white;
+}
+
+#foot #footer-four .foot-list4 {
+    width: 300px;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+#foot #footer-four .foot-list4 a {
+    margin: 0 10px 10px 0;
+    text-align: left;
+    width: 150px;
+}
+
+#backTop {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}

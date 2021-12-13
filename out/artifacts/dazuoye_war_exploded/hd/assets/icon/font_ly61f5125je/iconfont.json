@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "741877",
+      "name": "主页",
+      "font_class": "geren1",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "1239085",
+      "name": "用户",
+      "font_class": "user",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "5726177",
+      "name": "增加",
+      "font_class": "zengjia-cuxiantiao",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "7775068",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "10292039",
+      "name": "删 除",
+      "font_class": "shanchu",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "14843958",
+      "name": "管理",
+      "font_class": "ziyuan143",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
+      "icon_id": "16731294",
+      "name": "修改",
+      "font_class": "xiugai",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "20592446",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    }
+  ]
+}

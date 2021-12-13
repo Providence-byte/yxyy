@@ -1,0 +1,501 @@
+* {
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+
+#space-top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(105, 179, 108);
+    padding: 10px 0 0 200px;
+}
+
+#space-top img {
+    width: 90px;
+    height: 60px;
+}
+
+#space-top .space-top-back {
+    flex: 1;
+    height: 60px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#space-top .space-top-back a {
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: black;
+}
+
+#space-top .space-top-back a:hover {
+    color: rgb(22, 131, 74);
+}
+
+.space-title {
+    background-color: #eee;
+    padding-left: 150px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#space-content {
+    width: 100%;
+    height: auto;
+    /* height: 600px; */
+    padding: 0 100px 0 150px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+}
+
+#space-content .space-self {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#space-content .space-self .about-me {
+    width: 100%;
+    flex: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin-bottom: 35px;
+    padding-top: 20px;
+    border-top: 3px solid rgb(105, 179, 108);
+}
+
+#space-content .space-self .about-me .space-head {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(105, 179, 108);
+    overflow: hidden;
+}
+
+#space-content .space-self .about-me h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+#space-content .space-self .about-me h5 {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+#space-content .space-self .about-me ul {
+    width: 100%;
+    height: 155px;
+    padding: 0px 5px;
+    border-bottom: 1px solid #999;
+    display: flex;
+    flex-direction: column;
+}
+
+#space-content .space-self .about-me ul li {
+    flex: 1;
+    width: 100%;
+    line-height: 50px;
+    border-top: 1px solid #999;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+#space-content .space-self .about-me ul li span {
+    display: inline-block;
+    margin-left: 62%;
+    font-size: 16px;
+    color: #999;
+}
+
+#space-content .space-self .about-me-other {
+    width: 100%;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-top: 3px solid rgb(105, 179, 108);
+}
+
+#space-content .space-self .about-me-other div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+#space-content .space-self .about-me-other div h3 {
+    padding: 1px;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    line-height: 30px;
+}
+
+#space-content .space-self .about-me-other div h3 img {
+    margin-top: 5px;
+}
+
+#space-content .space-self .about-me-other div h3 span {
+    display: inline-block;
+    margin-left: 5px;
+    height: 100%;
+}
+
+#space-content .space-self .about-me-other div .biaoqian {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#space-content .space-self .about-me-other div .biaoqian span {
+    width: 20%;
+    height: 60%;
+    margin-right: 10px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(68, 226, 173);
+}
+
+#space-content .space-main {
+    flex: 3;
+    height: 565px;
+    margin-left: 35px;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    flex-direction: column;
+}
+
+#space-content .space-main ul {
+    width: 100%;
+    height: 8%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#space-content .space-main ul li {
+    height: 100%;
+    width: 15%;
+    text-align: center;
+    line-height: 48px;
+    font-size: 20px;
+    border-top: 3px solid #fff;
+}
+
+.space-active {
+    background-color: #fff;
+    border-top: 3px solid rgb(105, 179, 108)!important;
+}
+
+/* 我的收藏 */
+
+#space-content .space-main .space-yulu, #space-content .space-main .space-write, #space-content .space-main .space-shoucang {
+    background-color: #fff;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0 0 30px;
+}
+
+#space-content .space-main .space-shoucang ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#space-content .space-main .space-shoucang ul li {
+    width: 21%;
+    height: 260px;
+    margin: 0 30px 30px 0;
+    background-color: #eee;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#space-content .space-main .space-shoucang ul li h2 {
+    height: 30px;
+}
+
+.btn-cancel{
+    display: block;
+    height: 30px;
+    width: 100%;
+    font-size: 14px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+/* 编辑资料 */
+
+#space-content .space-main .space-bianji {
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    display: none;
+    padding: 20px;
+    background: url('../images/space-bg4.jpg') no-repeat;
+    background-size: cover;
+}
+
+#space-content .space-main .space-bianji form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#space-content .space-main .space-bianji form .nor {
+    font-size: 20px;
+    line-height: 50px;
+    flex: 1;
+    /* background-color: #eee; */
+    margin-bottom: 15px;
+    width: 60%;
+    position: relative;
+}
+
+#space-content .space-main .space-bianji form .nor select {
+    margin-left: 18px;
+}
+
+#space-content .space-main .space-bianji form .nor input {
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #eee;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+}
+
+#space-content .space-main .space-bianji form .nor input[type="file"] {
+    background: none;
+}
+
+#space-content .space-main .space-bianji form .nor:nth-child(6) input {
+    margin-right: 50px;
+}
+
+#space-content .space-main .space-bianji form .nor .sex-1 {
+    display: block;
+    width: 35px;
+    height: 50px;
+    position: absolute;
+    top: 12px;
+    left: 88px;
+}
+
+#space-content .space-main .space-bianji form .nor .sex-2 {
+    display: block;
+    width: 35px;
+    height: 50px;
+    position: absolute;
+    top: 12px;
+    left: 175px;
+}
+
+#space-content .space-main .space-bianji form .baocun {
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(105, 179, 108);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 0 60px;
+}
+
+/* 我的语录 */
+
+#space-content .space-main .space-yulu ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#space-content .space-main .space-yulu ul li {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    margin-bottom: 20px;
+    border: 3px solid rgb(105, 179, 108);
+}
+
+#space-content .space-main .space-yulu ul li img {
+    width: 130px;
+    height: 130px;
+}
+
+#space-content .space-main .space-yulu ul li div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#space-content .space-main .space-yulu ul li div p {
+    padding-left: 20px;
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    line-height: 80px;
+    width: 600px;
+}
+
+#space-content .space-main .space-yulu ul li div div {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+/*#space-content .space-main .space-yulu ul li div div button {*/
+/*    width: 100px;*/
+/*    height: 35px;*/
+/*    margin-left: 10px;*/
+/*    border: none;*/
+/*    color: #fff;*/
+/*    font-size: 16px;*/
+/*    border-radius: 3px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+#space-content .space-main .space-yulu ul li div div button:first-child {
+    background-color: royalblue;
+}
+
+#space-content .space-main .space-yulu ul li div div button:last-child {
+    background-color: red;
+}
+
+/* 写语录 */
+
+#space-content .space-main .space-write form {
+    width: 100%;
+    height: 90%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#space-content .space-main .space-write form label:nth-child(2), #space-content .space-main .space-write form label:first-child {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#space-content .space-main .space-write form label:nth-child(3) textarea, #space-content .space-main .space-write form label:nth-child(2) input {
+    width: 70%;
+    height: 100%;
+}
+
+#space-content .space-main .space-write form label:nth-child(3) {
+    width: 100%;
+    height: 250px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+#space-content .space-main .space-write form .space-write-submit {
+    width: 20%;
+    height: 50px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(105, 179, 108);
+}
+#huakuai-outer {
+    width: 400px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#huakuai-box {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #CCC;
+    border-radius: 30px;
+    position: relative;
+}
+
+.huakuai-text {
+    font-size: 18px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.huakuai-radius {
+    position: absolute;
+    left: 2;
+    top: 1.5px;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background: #fff;
+    border: 1px solid #CCC;
+    border-radius: 25px;
+    transition: left .4s;
+}
+
+.huakuai-right {
+    position: absolute;
+    top: 1.5px;
+    left: 32px;
+}
+
+.huakuai-left {
+    position: absolute;
+    top: 1.5px;
+    left: 1px;
+}
+
+.huakuai-bg {
+    background-color: rgb(149, 226, 151);
+    transition: background-color .8s;
+}
+
+
+.footer{
+    width: 100%;
+    height: 35px;
+    background-color: #eee;
+}
